@@ -27,6 +27,7 @@ const SignupComponent = () => {
       setError({message: "Password and Confirm password should match!"});
       return;
     }
+    console.log(apiUrl);
     axios.post(apiUrl + "/api/auth/signup", {
       username,
       email,

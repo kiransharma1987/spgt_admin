@@ -19,6 +19,7 @@ const LoginComponent = () => {
       return;
     }
     e.preventDefault();
+    console.log("lfnlarnblkearnblkearn"+apiUrl);
     axios.post(apiUrl + "/api/auth/signin", {
       username, password
     })
