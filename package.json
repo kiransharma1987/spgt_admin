@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kiransharma1987.github.io/spgt_admin",
+  "homepage": "https://admin.spgt.co.in",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
