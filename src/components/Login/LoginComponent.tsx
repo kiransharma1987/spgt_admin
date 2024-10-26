@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
 import { AuthContext } from "../../context/AuthContext";
 const apiUrl = import.meta.env.VITE_API_URL;
@@ -62,7 +62,7 @@ const LoginComponent = () => {
 
         <div className="footer">
           <div className="footer-row">Not a valid user!</div>
-          <div className="footer-row"><a href="signup" className="signup-link">Register</a></div>
+          <div className="footer-row"><Link to="/signup" className="signup-link">Register</Link></div>
         </div>
       </form>
     </div>
